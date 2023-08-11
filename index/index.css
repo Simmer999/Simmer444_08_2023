@@ -1,0 +1,107 @@
+body, html {
+background-color: #220000;
+padding: 0;
+margin: 0;
+position: relative;
+height: 100%;
+width: 100%;
+scrollbar-color: rebeccapurple green;
+}
+#container {
+height: 100%;
+position: absolute;
+}
+/* Title BLock */
+#title {
+    height: 82px;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    }
+#simmer999_org {
+    position: absolute;
+    top: 20px;
+    margin-left: 50px;
+    color: white;
+    filter: opacity(0.6) drop-shadow(0 0 0 #220000);
+    text-decoration: none;
+    }
+/* Title BLock */
+
+nav {
+    display: flex;
+    justify-content: start;
+    height: 50px;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    }
+.nav-item {
+    margin: auto;
+    height: 40px;
+    width: 180px;
+    }
+#hambuger {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    height: 40px;
+    width: 40px;
+    }
+img.burg {
+    filter: opacity(0.2) drop-shadow(0 0 0 #220000);
+    }
+.media_works {
+    position: relative;
+    bottom: 10px;
+    color: white;
+    filter: opacity(0.6) drop-shadow(0 0 0 #220000);
+    font-size: 2.8em;
+    display: inline;
+    margin-left: 10px;
+    font-family: Georgia, serif;
+    }  
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+/*<==============================================Dropdown Font Size===========*/    
+    font-size: 2em;
+/*<===========================================================================*/    
+    width: 150px;
+    /* margin-top: 10px; */
+    margin-left: 26px;
+    display: none;
+    color: white;
+    background-color: #220000;
+    z-index: 10;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+/*<==============================================Dropdown Font================*/
+    font-family: Georgia, serif;
+/*<===========================================================================*/     
+    color: white;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #330000
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+display: block;
+}
+button {
+    background-color: #220000;
+    border: none;
+}
+.dropdown-container {
+    position: absolute;
+    width: 100%;
+    left: 100%;
+    z-index: 1;
+    top: 0px;
+ }
+ p {
+    margin-top: 5px;
+ }
