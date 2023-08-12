@@ -23,7 +23,7 @@ body {
     z-index: 10;    
     height: 100vh;
     width: 100vw;
-    background: url("thin_smokeF.png");
+    background: url("../../thin_smokeF.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -33,7 +33,7 @@ body {
     z-index: 10;    
     height: 100vh;
     width: 100vw;
-    background: url("border01.jpg");
+    background: url("../images/border01.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -218,7 +218,7 @@ a {
         /* overflow: hidden; */
         background-position: left;
         /* background-color: black; */
-        background: url("thin_smokeFFF.png");
+        background: url("../../thin_smokeFFF.png");
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
@@ -230,9 +230,9 @@ a {
         width: 300px;
         font-size: medium;
     }
-    /* #slide {
-        transform: translateX(200px)
-    } */
+    #gallery_menu {
+        left: 80px;
+    }
 @keyframes slideout {
     from {
         transform: translateX(0);
