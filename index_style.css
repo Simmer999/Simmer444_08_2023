@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
- 
+html {
+    background-color: black;
+}
 body {
     background-color: black;
     overflow: hidden;
@@ -90,6 +92,7 @@ body {
 }
 #slide {
     position: absolute;
+    /* background-color: black; */
     left: -100%;
     width: 100vw;
     height: 100vh;
@@ -183,20 +186,59 @@ a {
     }
 } 
 @media only screen and (max-width: 500px) {
-    #space, #menu {
-        left: 20px;
+    #title_span {
+        top: 80px;
+        width: 105px;
+        font-size: 1em;
+        margin-right: 10px;
     }
-    #slide {
-        left: -130%;
-        background-position: -80px;
-        width: 100.2vw;
+    #article_title {
+        top: 80px;
+        width: 155px;
+        font-size: 1em;
+        margin-right: 10px;
     }
+    .article {
+        height: 65vh;
+        margin-right: 10px;        
+        margin-top: 100px;
+        width: 80vw;
+    }
+    #backlinks {
+        margin-right: 20px;
+    }
+    #home_link {
+        margin-left: 0;
+    }
+    #space p {
+        font-size: medium;
+    }
+    #container {
+        position: relative;
+        /* overflow: hidden; */
+        background-position: left;
+        /* background-color: black; */
+        background: url("thin_smokeFFF.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+
+        /* transform: translateX(-50px); */
+    }
+    #photoLinkTitle {
+        margin-left: 40px;
+        width: 300px;
+        font-size: medium;
+    }
+    /* #slide {
+        transform: translateX(200px)
+    } */
 @keyframes slideout {
     from {
         transform: translateX(0);
     }
     to {
-        transform: translateX(130vw);
+        transform: translateX(80vw);
     }
     }
 }
