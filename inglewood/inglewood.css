@@ -1,0 +1,25 @@
+body { 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+svg {
+    margin: 5px;
+    border-style: solid;
+    border-width: 10px;
+    border-color:  black;
+    background: url(inglewood.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2 {
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 120px;
+}
+text{
+    font-weight: bold;
+    font-size:medium;
+}
