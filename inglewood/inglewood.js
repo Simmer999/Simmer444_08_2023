@@ -14,7 +14,7 @@ const svg = d3.select("body")
             "translate(" + margin.left + "," + margin.top + ")");
 
 // Get the Data
-d3.csv("inglewood_months.csv", function(data) {
+d3.csv("inglewood.csv", function(data) {
 console.log(data)
 //Define the x-axis.
 const x = d3.scaleBand()
