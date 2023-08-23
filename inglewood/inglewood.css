@@ -23,3 +23,22 @@ text{
     font-weight: bold;
     font-size:medium;
 }
+a {
+    text-decoration: none;
+}
+#next_button {
+    border-radius: 15px;
+    background-color: red;
+    position: absolute;
+    display: inline;
+    bottom: 100px;
+    right: 100px;
+}
+#prev_button {
+    border-radius: 15px;
+    background-color: red;
+    position: absolute;
+    display: inline;
+    bottom: 100px;
+    left: 100px;
+}
