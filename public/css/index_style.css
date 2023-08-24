@@ -173,15 +173,16 @@ a {
     color: #aa0044;
 }
 .article {
-
     margin: auto;
     margin-top: 150px;
     bottom: 100px;
     width: 70%;
     height: 60%;
-    overflow-y: auto;
-    
+    overflow-y: auto;  
 }
+.article::-webkit-scrollbar {
+    display: none;
+  }
 @keyframes slideout {
     from {
       transform: translateX(0);
