@@ -63,12 +63,18 @@ body {
     width: 125px;
     position: relative;
     display: block;
-    /* z-index: 100; */
     top: 135px;
     margin: auto;
     color: #aa0044;
     font-size: 24pt;
     font-weight: bolder;
+}
+#article_heading {
+    width: 350px;
+    position: relative;
+    display: block;
+
+    margin: auto;
 }
 .home_link {
     width: 100px;
