@@ -3,19 +3,8 @@
     grid-template-columns: 188px auto 188px;
     grid-template-rows: 252px auto 252px;
     height: 100vh;
-    /* background-color: #2196F3; */
-    /* padding: 10px; */
-    /* z-index: 10; */
 }
-.grid_item {
-    /* background-color: red; */
-    /* color: #aa0044;
-    border: 1px solid #aa0044;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center; grid-auto-flow: row;
-    text-align: center; grid-auto-flow: column; */
-}
+
 #one {
     background: url("../images/grid_border/border01-0-0.jpg");
 }
