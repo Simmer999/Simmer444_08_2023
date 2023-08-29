@@ -9,28 +9,26 @@
 }
 .grid_item {
     /* background-color: red; */
-    color: #aa0044;
+    /* color: #aa0044;
     border: 1px solid #aa0044;
     padding: 20px;
     font-size: 30px;
     text-align: center; grid-auto-flow: row;
-    text-align: center; grid-auto-flow: column;
+    text-align: center; grid-auto-flow: column; */
 }
 #one {
     background: url("../images/grid_border/border01-0-0.jpg");
 }
 #two {
     background: url("../images/grid_border/border01-1-0.jpg");
-    /* width: 100%;
-    height: 100%; */
-    object-fit: cover;
+    background-repeat: round;
 }
 #three {
     background: url("../images/grid_border/border01-2-0.jpg");
 }
 #four {
     background: url("../images/grid_border/border01-0-1.jpg");
-
+    background-repeat: round;
 }
 #five {
     background: url("../images/grid_border/border01-1-1.jpg");
@@ -38,14 +36,14 @@
 }
 #six {
     background: url("../images/grid_border/border01-2-1.jpg");
-
+    background-repeat: round;
 }
 #seven {
     background: url("../images/grid_border/border01-0-2.jpg");
 }
 #eight {
     background: url("../images/grid_border/border01-1-2.jpg");
-
+    background-repeat: round;
 }
 #nine {
     background: url("../images/grid_border/border01-2-2.jpg");
