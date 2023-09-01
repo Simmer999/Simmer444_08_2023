@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 40px;
+    background-color: #11aaaa;
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 120px 120px 120px;
+    grid-template-areas: 
+        "....... header header"
+        "sidebar content content";
+    background-color: #11aaaa;
+    color: #444;
+}
+.box {
+    background-color: #aa11aa;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.content {
+    grid-area: content;
+}
+.header {
+    grid-area: header;
+    background-color: #aaaa11;
+}
+
+
+
