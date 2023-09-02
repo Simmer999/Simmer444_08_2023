@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 40px;
+    background-color: #786249;
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, [col] 150px);
+    grid-template-rows: repeat(2, [row] auto );
+    background-color: #30170C;
+    color: #444;
+    width: 630px;
+}
+.box {
+    background-color: #A16144;
+    color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 150%;
+}
+.box .box {
+    background-color: #54543C;
+    /* background-color: #7C1E12; */
+}
+.a {
+    grid-column: col / span 2;
+    grid-row: row;
+}
+.b {
+    grid-column: col 3 / span 2;
+    grid-row: row;
+}
+.c {
+    grid-column: col / span 2;
+    grid-row: row 2;
+}
+.d {
+    grid-column: col 3 / span 2;
+    grid-row: row 2;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.e {
+    grid-column: 1/3;
+    grid-row: 1;
+}
+.f {
+    grid-column: 1;
+    grid-row: 2;
+}
+.g {
+    grid-column: 2;
+    grid-row: 2;
+}
+p {
+    font-family: "Boek";
+    letter-spacing: 2px;
+}
