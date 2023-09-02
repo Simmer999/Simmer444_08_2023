@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Boek";
+    src: url("../fonts/boek/Boecklins Universe.ttf");
+
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +14,9 @@ body {
     background-color: black;
     overflow: hidden;
     position: relative; 
-    height: 100vh;   
+    height: 100vh;
+    font-family: 'Boek';  
+    letter-spacing: 3px;     
 }
 #underlay {
     position: absolute;
