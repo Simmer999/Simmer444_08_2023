@@ -15,16 +15,18 @@ body {
     gap: 10px;
     grid-template-columns: repeat(4, [col] 150px);
     grid-template-rows: repeat(2, [row] auto );
-    background-color: #30170C;
+    background-color: #786249;
     color: #444;
     width: 630px;
 }
 .box {
     background-color: #A16144;
     color: #fff;
+    outline: 2px solid #7C1E12;
     border-radius: 5px;
     padding: 30px;
     font-size: 150%;
+
 }
 .box .box {
     background-color: #54543C;
