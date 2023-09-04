@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 40px;
+    background-color: #26333C;
+    font-family: "Boek";
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+    background-color: #744A40;
+    color: #444;
+}
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
