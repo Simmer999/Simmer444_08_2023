@@ -246,17 +246,22 @@ a {
     }
     #backlinks {
         top: 5px;
-        margin-right: 20px;
-        padding: 30px
+        /* margin-right: 20px;
+        padding: 30px */
     }
     #home_link {
-        margin-left: 30%;
+        margin-left: 5%;
     }
     #article_link {
-        margin-left: 15%;
+        right: 0;
+        /* margin-right: 5%; */
     }
     #space p {
         font-size: medium;
+    }
+    .space {
+        height: 30px;
+        background-color: #FBEBCB;
     }
     #container {
         position: relative;
