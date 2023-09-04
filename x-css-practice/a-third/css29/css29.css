@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 40px;
+    background-color: #26333C;
+    font-family: "Boek";
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
+    background-color: #6E2413;
+    color: #444;
+}
+.box {
+    background-color: #BD673C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.a {
+    grid-column: auto / span 2;
+}
+  
+.k {
+grid-column: auto / span 3;
+}
+
+.g {
+grid-column: auto / span 2;
+grid-row: auto / span 2;
+}
