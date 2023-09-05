@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+/* 
+#BD673C Tan
+#30170C Brown
+#330905 Red/Brown
+#7C1E12 Red
+#6E2413 Brick
+#26333C Slate
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 40px;
+    background-color: #26333C;
+    font-family: "Boek";
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 100px 150px 100px ;
+    grid-template-rows: repeat(3,minmax(100px,auto));
+    background-color: #6E2413;
+    color: #444;
+}
+.box {
+    background-color: #26333C;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.box .box {
+    background-color: #BD673C;
+    color: #444;
+}
+.a {
+    grid-column: 1 / 3;
+}
+.b {
+    grid-column: 4 ;
+}
+.c {
+    grid-column: 1;
+    grid-row: 2 / 4;
+}
+.d{
+    grid-column: 2 / 5;
+    grid-row: 2 / 4;
+    display: grid;
+    row-gap: 0;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+}
+.e, .f, .g, .h {
+    margin-bottom: 20px;
+    border: #000 solid 5px;
+}
+.i {
+    border: #000 solid 5px;
+}
+/* .j {
+    grid-column: 4;
+    grid-row: 2 / 4;
+    border-left: #6E2413  solid 10px;
+} */
