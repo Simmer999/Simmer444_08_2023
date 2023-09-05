@@ -2,8 +2,14 @@
     font-family: "boek";
     src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
 }
-/* #30170C
-#7C1E12 */
+/* 
+#30170C Brown
+#330905 Red/Brown
+#7C1E12 Red
+#26333C Grey
+#6E2413 Brick
+*/
+
 * {
     margin: 0;
     padding: 0;

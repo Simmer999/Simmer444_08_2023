@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+/* 
+#30170C Brown
+#330905 Red/Brown
+#7C1E12 Red
+#26333C Grey
+#6E2413 Brick
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 40px;
+    background-color: #26333C;
+    /* font-family: "Boek"; */
+}
+.box {
+    background-color: #330905;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+.box:nth-child(even) {
+background-color: #30170C;
+color: #000;
+}
+.wrapper {
+    width: 90%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: repeat(6, 10%);
+    border:1px solid #000;
+    margin-bottom: 2em;
+}
+.with-height {
+height: 400px;
+}
+p {
+    color: #fff;
+}
