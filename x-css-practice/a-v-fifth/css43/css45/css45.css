@@ -1,0 +1,86 @@
+@font-face {
+    font-family: "boek";
+    src: url("../../../public/fonts/boek/Boecklins Universe.ttf");
+}
+:root {
+    --Tan: #BD673C;
+    --Brown: #30170C;
+    --Red_Brown: #330905;
+    --Red: #7C1E12;
+    --Brick: #6E2413;
+    --Slate: #26333C;
+    --Yellow: #F3D78F;
+    --Purple: #6C3C4C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 40px;
+    background-color: var(--Yellow);
+    font-family: "Boek";
+}
+.wrapper {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 100px 150px 100px ;
+    grid-template-rows: repeat(3,minmax(100px,auto));
+    background-color: #fff;
+    color: #444;
+  }
+
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+  }
+
+  .box .box {
+    background-color: #ccc;
+    color: #444;
+  }
+
+  .a {
+    grid-column: 1 / 3;
+  }
+
+  .b {
+    grid-column: 4 ;
+  }
+
+  .c {
+    grid-column: 1;
+    grid-row: 2 / 4;
+  }
+
+  .d{
+    padding: 50px;
+    grid-column: 2 / 5;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+  }
+
+  .e {
+    grid-row: 1 / 3;
+    grid-column: 1 ;
+  }
+
+  .f {
+    grid-row: 1;
+    grid-column: 2 / 4;
+  }
+
+  .g {
+    grid-row: 2;
+    grid-column: 3;
+  }
